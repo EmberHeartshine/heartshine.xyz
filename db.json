@@ -1,40 +1,41 @@
 {
-  "teams": {
-	"_meta": {
-	  "version": 1,
-	  "date": "2020-09-15T00:00:00.000Z"
-	},
-	"_teams": [
-	  {
-		"name": "team 1",
-		"members": [
-		  {
-			"donorName": "John Doe",
-			"donorDate": "2020-08-20T00:00:00.000Z",
-			"verifiedBy": "chesamo"
-		  },
-		  {
-			"donorName": "Jane Doe",
-			"donorDate": "2020-08-25T00:00:00.000Z",
-			"verifiedBy": "someone else"
-		  }
+	"teams": {
+		"_meta": {
+			"version": 1,
+			"date": "2020-09-15T00:00:00.000Z",
+			"updatedBy": "chesamo"
+		},
+		"_teams": [
+			{
+				"name": "team 1",
+				"members": [
+					{
+						"memberName": "John Doe",
+						"memberDate": "2020-08-20T00:00:00.000Z",
+						"verifiedBy": "chesamo"
+					},
+					{
+						"memberName": "Jane Doe",
+						"memberDate": "2020-08-25T00:00:00.000Z",
+						"verifiedBy": "someone else"
+					}
+				]
+			},
+			{
+				"name": "team 2",
+				"members": [
+					{
+						"memberName": "Jimmy Doe",
+						"memberDate": "2020-08-20T00:00:00.000Z",
+						"verifiedBy": "someone else"
+					},
+					{
+						"memberName": "Jessica Doe",
+						"memberDate": "2020-08-20T00:00:00.000Z",
+						"verifiedBy": "chesamo"
+					}
+				]
+			}
 		]
-	  },
-	  {
-		"name": "team 2",
-		"members": [
-		  {
-			"donorName": "Jimmy Doe",
-			"donorDate": "2020-08-20T00:00:00.000Z",
-			"verifiedBy": "someone else"
-		  },
-		  {
-			"donorName": "Jessica Doe",
-			"donorDate": "2020-08-20T00:00:00.000Z",
-			"verifiedBy": "chesamo"
-		  }
-		]
-	  }
-	]
-  }
+	}
 }
